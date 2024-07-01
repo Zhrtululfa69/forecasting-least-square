@@ -1,6 +1,6 @@
 <?php
-require 'page/function.php';
-require 'page/head.php';
+require 'backend/function.php';
+require 'layout/head.php';
 
 session_start();
 if (isset($_SESSION["login"])) {
